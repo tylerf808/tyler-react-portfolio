@@ -5,9 +5,9 @@ import PDF from "../../TylerResume.pdf";
 export default function Resume() {
     return (
         <div>
-      <section class="page-section" id="Resume">
+      <section className="page-section" id="Resume">
         <h2>Resume</h2>
-            <div class="col">
+            <div className="col">
                 <h1>Front End Proficiencies</h1>
                 <ul>
                     <li>HTML</li>
@@ -24,7 +24,7 @@ export default function Resume() {
                     <li>Express</li>
                     <li>GQL</li>
                 </ul>
-                <a href ={PDF} target ="_blank" >
+                <a href ={PDF} target ="_blank" rel='noreferrer'>
               Download my resume
             </a>
             </div>
